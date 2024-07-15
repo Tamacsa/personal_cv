@@ -11,7 +11,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
 });
 
 // Contact button functionality
-document.querySelector('.contrast').addEventListener('click', function() {
+document.querySelector('.btn').addEventListener('click', function() {
     const recipientEmail = "tamacsa1998@gmail.com";
     const emailSubject = "Kapcsolatfelvétel";
     const emailBody = "Üdvözlöm, Csaba Attila Tamás!";
