@@ -205,7 +205,7 @@ p {
 }
 
 .img-fluid {
-    width: 100%;
+    width: 24rem;
     height: auto;
     border-radius: 50%;
     object-fit: cover;
