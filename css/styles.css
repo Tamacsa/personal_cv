@@ -206,8 +206,10 @@ p {
 }
 
 .business-image {
-    width: 200px;
-    height: 200px;
+    width: 24rem;
+    height: 24rem;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     object-fit: cover;
     transition: transform 0.3s ease;
