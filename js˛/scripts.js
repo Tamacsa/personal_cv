@@ -61,3 +61,18 @@ document.querySelectorAll('section').forEach(section => {
 document.querySelectorAll('.business-image').forEach(image => {
     observer.observe(image);
 });
+
+// Add image effects and animations
+document.querySelectorAll('.business-image').forEach(image => {
+    image.style.transition = "transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out";
+    
+    image.addEventListener('mouseover', function() {
+        image.style.transform = "scale(1.05)";
+        image.style.boxShadow = "0 10px 20px rgba(0, 0, 0, 0.2)";
+    });
+
+    image.addEventListener('mouseout', function() {
+        image.style.transform = "scale(1)";
+        image.style.boxShadow = "0 5px 15px rgba(0, 0, 0, 0.1)";
+    });
+});
