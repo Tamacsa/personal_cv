@@ -61,6 +61,8 @@ h1 {
     width: 60%;
     max-width: 300px;
     margin-top: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 @media (max-width: 1028px) {
@@ -110,7 +112,7 @@ p {
     padding: 2rem;
     background: #e7f0f1;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .icons {
@@ -160,7 +162,7 @@ p {
     padding: 2rem;
     background: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 2rem;
 }
 
@@ -197,6 +199,14 @@ p {
     margin-top: 1rem;
     font-size: 0.875rem;
 }
- .text-white{
-    color:#f8f8f8
- }
+
+.text-white {
+    color: #f8f8f8;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
