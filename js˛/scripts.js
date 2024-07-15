@@ -14,7 +14,7 @@ document.querySelectorAll('nav a').forEach(anchor => {
 document.querySelector('.btn').addEventListener('click', function() {
     const recipientEmail = "tamacsa1998@gmail.com";
     const emailSubject = "Kapcsolatfelvétel";
-    const emailBody = "Üdvözlöm, Csaba Attila Tamás!";
+    const emailBody = "Üdvözlöm, Tamás Attila Csaba!";
 
     const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(emailSubject)}&body=${encodeURIComponent(emailBody)}`;
     window.open(mailtoLink, "_blank");
@@ -55,4 +55,9 @@ const observer = new IntersectionObserver((entries, observer) => {
 
 document.querySelectorAll('section').forEach(section => {
     observer.observe(section);
+});
+
+// Animate business images on scroll
+document.querySelectorAll('.business-image').forEach(image => {
+    observer.observe(image);
 });
